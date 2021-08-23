@@ -1,0 +1,77 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SaveServlet</servlet-name>
+  	<display-name>SaveServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.note.app.controller.SaveServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<display-name>RegisterServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.vehicleparkingsystem.controller.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.vehicleparkingsystem.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CarEntry</servlet-name>
+  	<display-name>CarEntry</display-name>
+  	<description></description>
+  	<servlet-class>com.vehicleparkingsystem.controller.CarEntry</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CarEntryDeleteServlet</servlet-name>
+  	<display-name>CarEntryDeleteServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.vehicleparkingsystem.controller.CarEntryDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CarEntryUpdateServlet</servlet-name>
+  	<display-name>CarEntryUpdateServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.vehicleparkingsystem.controller.CarEntryUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddCarServlet</servlet-name>
+  	<display-name>AddCarServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.vehicleparkingsystem.controller.AddCarServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SaveServlet</servlet-name>
+  	<url-pattern>/SaveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CarEntry</servlet-name>
+  	<url-pattern>/CarEntry</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CarEntryDeleteServlet</servlet-name>
+  	<url-pattern>/CarEntryDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CarEntryUpdateServlet</servlet-name>
+  	<url-pattern>/CarEntryUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddCarServlet</servlet-name>
+  	<url-pattern>/AddCarServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
